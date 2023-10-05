@@ -78,19 +78,6 @@ const getTableTd = () => {
   return td;
 };
 
-// const createRow = (arr) => {
-//   const table = getTable();
-  
-//   for (let i = 0; i < arr.length; i++) {
-//     const tr = getTableTr();
-//     table.append(tr);
-//   }
-
-//   return table;
-// };
-
-// console.log(createRow(array));
-
 const renderGoods = (arr) => {
   const table = getTable();
 
@@ -109,8 +96,6 @@ const renderGoods = (arr) => {
         
       } 
     }
-  
-    
   })
 
   return table;
